@@ -1,0 +1,32 @@
+{
+  "name": "React Select Test",
+  "short_name": "React Select Test",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "",
+  "homepage_url": "http://www.google.com",
+
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+
+  "permissions": [
+    "pageCapture",
+    "tabs",
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "<all_urls>",
+    "cookies"
+  ],
+
+  "icons": {
+    "16": "images/mlogo16.png",
+    "48": "images/mlogo48.png",
+    "128": "images/mlogo128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "images/mlogo144.png",
+    "default_title": "React Select Test",
+    "default_popup": "popup.html"
+  }
+}
